@@ -17,7 +17,7 @@ writer = FFMpegWriter(fps=15, metadata=metadata)"""
 
 cmap = mpl.colors.ListedColormap(['white','green','yellow'])
 
-N = 100
+N = 200
 # rand map
 energy = np.random.rand(N,N)
 
